@@ -208,7 +208,8 @@
                     <input type="email" name="Email" placeholder="Email Address" required>
                 </div>
                 <div class="input-box">
-                    <input type="number" name="Number" placeholder="Mobile Number" required>
+                    <input type="text" name="Number" pattern="\+\d*" placeholder="Mobile Number" required title="The number must start with a + sign and include digits only.">
+
                 </div>
                 <textarea name="Message" cols="30" rows="10" placeholder="Your Message" required></textarea>
                 <input type="submit" value="Send Message" class="btn">
